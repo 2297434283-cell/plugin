@@ -1,0 +1,23 @@
+{
+  "name": "uyun-feature",
+  "description": "优云版新功能开发工作流 - 生成结构化文档 + 完整开发闭环（需求→规划→编码→审查→测试）",
+  "version": "0.1.0",
+  "author": {
+    "name": "UYUNN"
+  },
+  "commands": [
+    {
+      "name": "feature",
+      "description": "使用优云结构化流程创建新功能：需求分析 → 任务规划 → 代码实现 → 审查 → 单元测试",
+      "entrypoint": "commands/feature.md"
+    }
+  ],
+  "agents": [
+    "requirement-analyst",
+    "task-planner",
+    "code-generator",
+    "code-reviewer",
+    "unit-test-writer"
+  ],
+  "keywords": ["feature", "workflow", "development", "uyun", "文档驱动"]
+}
