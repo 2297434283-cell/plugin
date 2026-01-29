@@ -1,0 +1,16 @@
+{
+  "name": "UYUN Plugins Marketplace",
+  "description": "优云 Claude Code 插件集合，包括 uyun-feature 等",
+  "owner": {
+    "name": "朱"
+  },
+  "plugins": [
+    {
+      "name": "uyun-feature",
+      "source": {
+        "type": "local",         
+        "path": "uyun-feature"    
+      }
+    }
+  ]
+}
