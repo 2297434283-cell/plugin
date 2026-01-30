@@ -1,16 +1,15 @@
 {
-  "name": "uyun-plugins",
-  "description": "优云 Claude Code 插件集合",
+  "name": "uyun-feature",
+  "version": "0.0.1",
+  "description": "Claude Code开发测试插件市场",
   "owner": {
-    "name": "zhu-uyun"
+    "name": "朱俊"
   },
   "plugins": [
     {
       "name": "uyun-feature",
-      "source": {
-        "type": "local",
-        "path": "uyun-feature"
-      }
+      "source": "https://github.com/2297434283-cell/plugin.git",
+      "description": "自定义测试插件"
     }
   ]
 }
