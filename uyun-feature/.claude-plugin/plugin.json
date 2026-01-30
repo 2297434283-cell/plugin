@@ -1,23 +1,8 @@
 {
   "name": "uyun-feature",
+  "version": "0.0.1",
   "description": "优云版结构化新功能开发工作流 - 生成文档 + 完整开发闭环",
-  "version": "0.1.0",
   "author": {
     "name": "UYUN"
-  },
-  "commands": [
-    {
-      "name": "feature",
-      "description": "使用优云流程创建新功能：需求→规划→编码→审查→测试",
-      "entrypoint": "commands/feature.md"
-    }
-  ],
-  "agents": [
-    "requirement-analyst",
-    "task-planner",
-    "code-generator",
-    "code-reviewer",
-    "unit-test-writer"
-  ],
-  "keywords": ["feature", "workflow", "uyun", "文档驱动"]
+  }
 }
