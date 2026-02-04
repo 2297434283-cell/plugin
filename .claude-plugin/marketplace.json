@@ -8,8 +8,13 @@
   "plugins": [
     {
       "name": "uyun-feature",
-      "source": "https://github.com/2297434283-cell/plugin.git",
+      "source": "./uyun-feature",
       "description": "自定义测试插件"
+    },
+    {
+      "name": "uyun-bug",
+      "source": "./uyun-bug",
+      "description": "Bug 修复完整闭环工作流插件"
     }
   ]
 }
