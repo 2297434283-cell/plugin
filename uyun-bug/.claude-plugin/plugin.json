@@ -1,0 +1,8 @@
+{
+  "name": "uyun-bug",
+  "version": "0.0.1",
+  "description": "优云版结构化 Bug 修复工作流 - 分析+方案+修复+验证+回归测试",
+  "author": {
+    "name": "朱俊"
+  }
+}
